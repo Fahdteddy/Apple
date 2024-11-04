@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="description" content="Página de ejemplo con estructura y secciones estilo Laton Man" />
+    <link rel="shortcut icon" href="iconople.png" type="image/x-icon">
+    <title>Apple Inc.</title>
+    <style>
+        /* Fondo general */
+        body {
+            margin: 50px;
+            background-color: yellow; /* Fondo amarillo */
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Contenedor con borde */
+        .container {
+            margin: 10px; /* Espacio alrededor de las secciones */
+            border: 5px solid black;
+        }
+
+        /* Estilos de fondo por sección */
+        .section-header, .section-content, .section-ordered-list, .section-unordered-list, .section-details {
+            padding: 20px;
+            color: #333;
+            margin-bottom: 10px; /* Espacio entre las secciones */
+        }
+
+        .section-header {
+            background-color: aquamarine;
+        }
+        .section-content {
+            background-color: aquamarine;
+        }
+        .section-ordered-list {
+            background-color: aquamarine;
+        }
+        .section-unordered-list {
+            background-color: aquamarine;
+        }
+        .section-details {
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Título Principal -->
+        <div class="section-header">
+            <h1>TÍTULO 1</h1>
+            <!-- Imagen de Apple -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Logo de Apple" width="200px">
+            <!-- Video de YouTube sobre Apple -->
+            <iframe
+                 src="https://www.youtube.com/watch?v=1oMSl72AfJM" 
+                 title="YouTube video player"
+                frameborder="2000" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>
+            <object type="video/mp4" data="C:\Users\fahd1\OneDrive\Escritorio\PALOMERAS-VALLECAS\LENGUAJE DE MARCAS\HTML\Videos\oso.mp4">
+                <param name="FileName" value="=Videos/oso.mp4">
+            </object>
+        </div>
+        <div>
+            <form>
+                Usuario <input type="text"><br/><br/>
+                Contraseña <input type="password"><br/><br/>
+                Socio <input type="checkbox" checked /><br/><br/>
+                SEXO <input type="radio" name="genero" value="m"> Masculino
+                <input type="radio" name="genero" value="f" > Femenino <br/><br/>
+            
+            </form>
+        </div>
+        <!-- Sección Lenguaje de Marcas -->
+        <div class="section-content">
+            <h1>LENGUAJE DE MARCAS</h1>
+            <hr>
+        </div>
+
+        <!-- Sección Lista Ordenada -->
+        <div class="section-ordered-list">
+            <h2>LISTA ORDENADA</h2>
+            <ol>
+                <li>HTML</li>
+                <li>XHTML</li>
+                <li>XML</li>
+            </ol>
+        </div>
+
+        <!-- Sección Lista No Ordenada -->
+        <div class="section-unordered-list">
+            <h2>LISTA NO ORDENADA</h2>
+            <ul>
+                <li>HTML</li>
+                <li>XHTML</li>
+                <li>XML</li>
+            </ul>
+        </div>
+
+        <!-- Sección de Enlaces y Definición de HTML -->
+        <div class="section-content">
+            <h1>Lenguaje de Marcas</h1>
+            <ul>
+                <li><a href="#H">HTML</a></li>
+                <li><a href="#X">XHTML</a></li>
+            </ul>
+            <a name="H"></a>
+            <h2>HTML</h2>
+            <p>
+                HTML (Hypertext Markup Language) apareció a principios de los años 90.
+                Su objetivo principal es enlazar documentos mediante enlaces para que,
+                al hacer clic sobre un texto, se abra otro documento relacionado con la información seleccionada.
+            </p>
+            <ul>
+                <li><a href="Definiciones.html#H">HTML</a></li>
+                <li><a href="Definiciones.html#X">XHTML</a></li>
+                <li><a href="Definiciones.html#W">WML</a></li>
+            </ul>
+        </div>
+
+        <!-- Sección de Definiciones -->
+        <div class="section-details">
+            <h3>Definiciones de Lenguajes de Marcas</h3>
+            <dl>
+                <dt>HTML</dt>
+                <dd>Hypertext Markup Language</dd>
+                <dd>Lenguaje de Marcas de Hipertexto</dd>
+                <dt>XHTML</dt>
+                <dd>Extensible Hypertext Markup Language</dd>
+                <dt>WML</dt>
+                <dd>Wireless Markup Language</dd>
+                <dt>RSS</dt>
+                <dd>Rich Site Summary</dd>
+                <dd>Really Simple Syndication</dd>
+                <dt>RTF</dt>
+                <dd>Rich Text Format</dd>
+                <dt>SVG</dt>
+                <dd>Scalable Vector Graphics</dd>
+                <dt>WSDL</dt>
+                <dd>Web Services Description Language</dd>
+            </dl>
+        </div>
+
+        <!-- Header de Laton Man -->
+        <div class="section-header" align="center">
+            <h2>LATON MAN</h2>
+            <p>Industrias StarFuerte</p>
+        </div>
+
+        <!-- Content de Laton Man -->
+        <div class="section-content" align="left">
+            <p>
+                Industrias StarFuerte presenta su nuevo prototipo de armadura para combate cuerpo a cuerpo contra múltiples enemigos.
+                <br>Características:
+                <ul>
+                    <li>Resistencia al fuego</li>
+                    <li>Capacidad para volar</li>
+                    <li>Gran arsenal de proyectiles</li>
+                </ul>
+            </p>
+        </div>
+    </div>
+</body>
+</html>

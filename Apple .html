@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Página de ejemplo inspirada en el estilo de Apple">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" type="image/x-icon">
+    <title>Apple Inc.</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            color: #333;
+            background-color: #fafafd;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Contenedor principal */
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        /* Header estilo Apple */
+        .header {
+            text-align: center;
+            padding: 30px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header img {
+            width: 80px;
+        }
+
+        .header h1 {
+            font-weight: 600;
+            color: #333;
+        }
+
+        /* Secciones con estilo limpio */
+        .section {
+            padding: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Listas */
+        ol, ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            padding: 8px 0;
+            font-size: 18px;
+        }
+
+        /* Enlaces de navegación */
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: #0071e3;
+            font-weight: 500;
+        }
+
+        /* Botón de acción */
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #0071e3;
+            color: #fff;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            font-weight: 500;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header principal -->
+        <div class="header">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Logo de Apple">
+            <h1>Apple Inc.</h1>
+            <p>Explora nuestros productos y descubre innovaciones que cambian el mundo.</p>
+        </div>
+
+        <!-- Navegación -->
+        <nav class="nav">
+            <a href="#productos">Productos</a>
+            <a href="#innovacion">Innovación</a>
+            <a href="#soporte">Soporte</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <!-- Sección de productos -->
+        <div id="productos" class="section">
+            <h2>Productos</h2>
+            <ul>
+                <li>iPhone</li>
+                <li>iPad</li>
+                <li>Mac</li>
+                <li>Apple Watch</li>
+                <li>AirPods</li>
+                <li>Apple TV</li>
+            </ul>
+        </div>
+
+        <!-- Sección de Innovación -->
+        <div id="innovacion" class="section">
+            <h2>Innovación</h2>
+            <p>
+                Apple lidera el camino en tecnología con un compromiso firme en innovación continua. Desde la primera computadora personal hasta el último iPhone, Apple se esfuerza por hacer la tecnología accesible y revolucionaria.
+            </p>
+        </div>
+
+        <!-- Sección de Soporte -->
+        <div id="soporte" class="section">
+            <h2>Soporte</h2>
+            <p>
+                ¿Necesitas ayuda? Nuestro equipo de soporte está aquí para ayudarte con cualquier problema. Visita nuestro centro de ayuda para acceder a guías y asistencia.
+            </p>
+            <a class="button" href="#">Ir al Soporte</a>
+        </div>
+
+        <!-- Sección de contacto -->
+        <div id="contacto" class="section">
+            <h2>Contacto</h2>
+            <form>
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                <label for="email">Correo electrónico:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                
+                <button type="submit" class="button">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

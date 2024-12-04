@@ -1,0 +1,197 @@
+/* Estilos generales */
+body {
+    margin: 0;
+    font-family: "Segoe UI","Helvetica Neue", Arial, sans-serif;
+    color: #333;
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Estilo del encabezado */
+.header {
+    text-align: center;
+    padding: 30px;
+}
+
+.header img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    font-weight: 600;
+    color: #333;
+}
+h1 {
+    text-align: center;
+}
+.productos {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.contenido {
+    text-align: center;
+    width: 50%;
+    background-color: #f5f5f7;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contenidop img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.content p {
+    margin: 5px 0;
+    font-size: 14px;
+}
+
+.mantenimiento {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.mantenimiento h2 {
+    color: #0071e3;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.mantenimiento p {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+}
+
+.acciones {
+    margin-top: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.button {
+    padding: 12px 25px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.button.cancel {
+    background-color: #0071e3;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.volver-enlace {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.volver-enlace:hover {
+    text-decoration: none; 
+}
+
+
+.button:disabled {
+    background-color: #e1e1e1;
+    cursor: not-allowed;
+}
+
+.footer {
+    background-color: #f9f9f9;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.footer-social p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li {
+    display: inline-block;
+}
+
+.social-links img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.social-links img:hover {
+    transform: scale(1.2);
+}
+
+.footer-legal p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+}
+
+.footer-legal a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer-legal a:hover {
+    text-decoration: underline;
+}
+
+.footer-visitor-counter {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    margin-top: 15px;
+    font-size: 0.9em;
+    color: #555;
+    font-weight: bold;
+}
+
+.footer-country {
+    margin: 0;
+    color: #666;
+}
+
+.footer-visitor-counter p {
+    margin: 0; 
+}
